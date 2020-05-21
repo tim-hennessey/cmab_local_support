@@ -42,20 +42,21 @@ body {
     }
 
     #txt1 {
-        clip: rect(0px,300px,110px,0px);
+        clip: rect(0px,300px,62px,0px);
     }
 
     #txt2 {
-        clip: rect(110px,300px,600px,0px);
+        clip: rect(62px,300px,250px,0px);
+        // opacity: 0;
     }
 
     #cta {
         position: absolute;
-        top: 197px;
-        left: 17px;
+        bottom: 14px;
+        right: 14px;
         opacity:0;
-        width: 147px;
-        height: 34px;
+        width: 114px;
+        height: 27px;
         background: #FEC228;
         overflow: hidden;
 
@@ -63,8 +64,8 @@ body {
             position: absolute;
             top: 0;
             left: 0;
-            width: 147px;
-            height: 34px;
+            width: 114px;
+            height: 27px;
             transform: translate3d(0, 0, 0.1px);
         }
     }
